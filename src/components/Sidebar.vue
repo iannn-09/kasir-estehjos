@@ -62,7 +62,7 @@
             />
           </svg>
 
-          <span class="mx-4">Dashboard</span>
+          <span class="mx-4">ArielWage</span>
         </router-link>
 
         <router-link
