@@ -2,7 +2,8 @@ import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 
 import Dashboard from "./views/Dashboard.vue";
 import Forms from "./views/Forms.vue";
-import Tables from "./views/Tables.vue";
+import User from "./views/User.vue";
+import Question from "./views/Question.vue";
 import UIElements from "./views/UIElements.vue";
 import Login from "./views/Login.vue";
 import Modal from "./views/Modal.vue";
@@ -33,9 +34,14 @@ const routes: RouteRecordRaw[] = [
     component: Card,
   },
   {
-    path: "/tables",
-    name: "Tables",
-    component: Tables,
+    path: "/user",
+    name: "User",
+    component: User,
+  },
+  {
+    path: "/question",
+    name: "Question",
+    component: Question,
   },
   {
     path: "/ui-elements",
