@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 import Dashboard from "./views/Dashboard.vue";
 import Forms from "./views/Forms.vue";
@@ -11,7 +11,7 @@ import Card from "./views/Card.vue";
 import Blank from "./views/Blank.vue";
 import NotFound from "./views/NotFound.vue";
 
-const routes: RouteRecordRaw[] = [
+const routes = [
   {
     path: "/",
     name: "Login",
