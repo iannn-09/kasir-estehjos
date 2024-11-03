@@ -62,8 +62,8 @@ export default [
     icon: mdiTelevisionGuide
   },
   {
-    to: '/responsive',
-    label: 'Responsive',
+    to: '/kasir',
+    label: 'Kasir',
     icon: mdiResponsive
   },
   {

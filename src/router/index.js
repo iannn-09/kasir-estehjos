@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Style from '@/views/StyleView.vue'
 import Home from '@/views/HomeView.vue'
+import KasirView from '@/views/KasirView.vue'
 
 const routes = [
   {
@@ -87,11 +88,11 @@ const routes = [
   },
   {
     meta: {
-      title: 'Responsive layout'
+      title: 'Kasir'
     },
-    path: '/responsive',
-    name: 'responsive',
-    component: () => import('@/views/ResponsiveView.vue')
+    path: '/kasir',
+    name: 'kasir',
+    component: KasirView
   },
   {
     meta: {
