@@ -23,6 +23,38 @@ const routes = [
   },
   {
     meta: {
+      title: 'Produk'
+    },
+    path: '/produk',
+    name: 'produk',
+    component: () => import('@/views/ProdukView.vue')
+  },
+  {
+    meta: {
+      title: 'Kategori'
+    },
+    path: '/kategori',
+    name: 'kategori',
+    component: () => import('@/views/KategoriView.vue')
+  },
+  {
+    meta: {
+      title: 'Transaction'
+    },
+    path: '/transaction',
+    name: 'transaction',
+    component: () => import('@/views/TransactionView.vue')
+  },
+  {
+    meta: {
+      title: 'Transaction Detail'
+    },
+    path: '/transaction-detail',
+    name: 'transaction-detail',
+    component: () => import('@/views/TransactionDetailView.vue')
+  },
+  {
+    meta: {
       title: 'Tables'
     },
     path: '/tables',
